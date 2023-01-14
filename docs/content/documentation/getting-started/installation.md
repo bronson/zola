@@ -49,11 +49,13 @@ $ sudo dpkg -i zola_<version>_amd64_debian_<debian_version>.deb
 
 ### Fedora
 
-Zola has been available in the official repositories since Fedora 29.
+Zola is included with Fedora 29 through Fedora 36.
 
 ```sh
 $ sudo dnf install zola
 ```
+
+It [has been removed](https://pagure.io/releng/issue/11066) from more recent versions of Fedora.
 
 ### Void Linux
 
